@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Buat Kamu - </title>
+</head>
+<body>
+    <div class='web--app'>
+        <div class='background'>
+            <video autoplay muted loop>
+                <source src='live.mp4'>
+            </video>
+            <div class='dark'></div>
+        </div>
+
+        <div class='checkin'>
+            <div class='container'>
+                <h1>Hayy Kamu</h1>
+                <img controls width='50' height='50' src='kado.gif'>
+                <p>Ada Sesuatu Nihh..</p>
+                <p id='open_click'>*klik dimana saja*</p>
+            </div>
+        </div>
+
+        <div class='page-1'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Aku Mau Nanya Sesuatu Nihh..</h1>
+                <img controls width='100' height='100' src='panda-bubu.gif'>
+                <p>Boleh Ya.. ;)</p>
+                <button onclick='next_1()'>Selanjutnya</button>
+            </div>
+        </div>
+
+        <div class='page-2'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Udah Punya Pacar ?</h1>
+                <img controls width='100' height='100' src='bubu-dudu.gif'>
+                <p>Jujur ya..</p>
+                <button onclick='punya()' id='true'>Iya</button>
+                <button onclick="belum_punya()" id='false'>Tidak</button>
+            </div>
+        </div>
+
+        <div class='page-3'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Jujur Yah..</h1>
+                <img controls width='150' height='100' src='animation-panda.gif'>
+                <p>Kamu suka Sama Aku Gk ?</p>
+                <button onclick="aku_suka()">Suka</button>
+                <button onclick="tidak_suka()">Tidak</button>
+            </div>
+        </div>
+
+        <div class='page-4'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Yeaay 😄</h1>
+                <img controls width='100' height='100' src='love.gif'>
+                <p>Aku Juga Suka Sama Kamu! </p>
+                <button onclick="page_5()">Selanjutnya</button>
+            </div>
+        </div>
+
+        <div class='page-5'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Seberapa Suka NIh ?</h1>
+                <img controls width='100' height='100' src='bubududu-panda.gif'>
+                <br>
+                <input id="love_range" type='range' value='0' max='100'>
+                <br>
+                <p id='love-range'>0%</p>
+                <button onclick="love_end()">Selanjutnya</button>
+            </div>
+        </div>
+
+        <div class='page-6'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Isi Hatiku :</h1>
+                <img controls width='100' height='100' src='munchieboo-panda.gif'>
+                <p>
+                    Sebenarnya Ini Udah Lama aku pendam sendiri, 
+                    namun kali ini aku ingin agar kamu tahu bahwa 
+                    aku suka sama kamu namun kali ini aku ingin 
+                    mengutarakannya.....
+                </p>
+                <button onclick="pag7()">Selanjutnya</button>
+            </div>
+        </div>
+        
+        <div class='page-7'>
+            <div class='container'>
+                <p id='page'></p>
+                <h1>Kamu Mau GK?</h1>
+                <img controls width='100' height='100' src='dudububu-kiss.gif'>
+                <p>Jadi Pacar Aku ></p>
+                <button onclick="tolak()">Tolak</button>
+                <button onclick="terima()">Terima</button>
+            </div>
+        </div>
+
+        <div class='page-8'>
+         <div class='container'>
+          <p id='page'></p>
+          <h1>yeaayyy 😆</h1>
+          <img controls width='100' height='100' src='frog-run.gif'>
+          <p>Sekarang Kita Udah jadian</p>
+          <button onclick="end()">Kirim Pesan</button>
+         </div>
+        </div>
+    </div>
+    <footer>
+     <p>Spesial Dari Farel Alfareza</p>
+     <p>&copy;2024-2025 FarProject</p>
+    </footer>
+</body>
+<script>var $ = {};</script>
+<script src='main.js'></script>
+</html>
