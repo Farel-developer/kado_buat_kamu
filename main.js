@@ -87,6 +87,6 @@ function ending(){
 }
 function end(){
  alert('Makasih Yah udah mau terima aku, apa adanya ☺')
- var msg = 'iya aku mau sama kamu, aku juga udh suka kamu' + $rang + '%'
+ var msg = 'iya aku mau sama kamu, aku juga suka kamu ' + $rang + '%' + '☺'
  window.location.href = 'https://api.whatsapp.com/send?text=' + msg;
 }
