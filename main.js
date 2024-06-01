@@ -19,7 +19,6 @@ function punya() {
  alert('Maaf yak kalau ganggu 😁')
  var msg = 'Aku udah punya pacar'
  window.location.href = 'https://api.whatsapp.com/send?text=' + msg;
- location.reload(true) 
 }
 
 function belum_punya() {
@@ -31,7 +30,6 @@ function tidak_suka() {
  alert('Yahh Kok Ngga Sih :(');
  var msg = prompt('Alasan')
  window.location.href = 'https://api.whatsapp.com/send?text=' + msg;
- location.reload(true) 
 }
 
 function aku_suka() {
@@ -77,7 +75,6 @@ function tolak(){
  alert('baiklah kalau itu pilihan kamu, setidaknya aku telah berani untuk ungkapin perasaan aku yang sesungguhnya, dan terima kasih untuk waktunya, bye cantik 😁')
  var msg = 'Maaf Yah Aku Gk Bisa Sama Kamu 😇'
  window.location.href = 'https://api.whatsapp.com/send?text=' + msg;
- location.reload(true) 
 }
 function terima(){
  alert('Hahh?!!, serius nih ?? ')
