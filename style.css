@@ -185,7 +185,7 @@ p{
     text-shadow: 0 0 10px black;
 
 }
-.container button:hover{
+.container button:active{
     background: black;
     color: white;
 }
